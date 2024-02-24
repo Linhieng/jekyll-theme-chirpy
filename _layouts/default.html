@@ -37,7 +37,7 @@ layout: compress
             <div class="access">
               {% comment %} {% include_cached update-list.html lang=lang %} {% endcomment %}
               {% comment %} {% include_cached trending-tags.html lang=lang %} {% endcomment %}
-              <img src="https://moe-counter.glitch.me/get/@linhieng?theme=gelbooru" />
+              {% include_cached aaa-count-view.html lang=lang %}
             </div>
 
             {% for _include in layout.panel_includes %}
