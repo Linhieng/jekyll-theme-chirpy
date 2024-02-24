@@ -35,8 +35,9 @@ layout: compress
           <!-- panel -->
           <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted">
             <div class="access">
-              {% include_cached update-list.html lang=lang %}
+              {% comment %} {% include_cached update-list.html lang=lang %} {% endcomment %}
               {% comment %} {% include_cached trending-tags.html lang=lang %} {% endcomment %}
+              <img src="https://moe-counter.glitch.me/get/@linhieng?theme=gelbooru" />
             </div>
 
             {% for _include in layout.panel_includes %}
