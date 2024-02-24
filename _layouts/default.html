@@ -1,6 +1,7 @@
 ---
 layout: compress
 ---
+
 <!doctype html>
 
 {% include origin-type.html %}
@@ -37,8 +38,8 @@ layout: compress
               {% include_cached update-list.html lang=lang %}
               {% include_cached trending-tags.html lang=lang %}
               {% include_cached aaa-count-view.html lang=lang %}
-              {% comment %} <pre> {{ page | jsonify }} </pre> {% endcomment %}
-              {% comment %} <pre> {{ site | jsonify }} </pre> {% endcomment %}
+              <pre> {{ page | jsonify }} </pre>
+              <pre> {{ site | jsonify }} </pre>
             </div>
 
             {% for _include in layout.panel_includes %}
