@@ -35,8 +35,8 @@ layout: compress
           <!-- panel -->
           <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted">
             <div class="access">
-              {% comment %} {% include_cached update-list.html lang=lang %} {% endcomment %}
-              {% comment %} {% include_cached trending-tags.html lang=lang %} {% endcomment %}
+              {% include_cached update-list.html lang=lang %}
+              {% include_cached trending-tags.html lang=lang %}
               {% include_cached aaa-count-view.html lang=lang %}
             </div>
 
