@@ -5,17 +5,14 @@ category: repost
 tags: [repost, browser]
 img_cdn: {{ site.baseurl }}
 
-var: {{ site.baseurl | append: '/' | append: page.name }}
+var: {{ site.baseurl + '/' }}
 ---
-
-直接通过网站学习每个样式的作用：[lim-w-justify-align | linhieng](https://blog.linhieng.com/lim-w-justify-align/)
 
 TODO: 不转载，还是直接翻译+整理成自己的内容吧
 
 
-- {{ page.name }}
-- {{ page.dir }}
-- {{ page.path }}
+直接通过网站学习每个样式的作用：[lim-w-justify-align &#124; linhieng](https://blog.linhieng.com/lim-w-justify-align/)
+
 - {{ page.id }}
 - {{ page.url }}
 - {{ page.title }}
