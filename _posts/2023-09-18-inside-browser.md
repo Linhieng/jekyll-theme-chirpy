@@ -5,7 +5,7 @@ category: repost
 tags: [repost, browser]
 img_cdn: {{ site.baseurl }}
 
-var: {{ site.baseurl + '/' }}
+var: {{ site.baseurl | 'hello' }}
 ---
 
 TODO: 不转载，还是直接翻译+整理成自己的内容吧
