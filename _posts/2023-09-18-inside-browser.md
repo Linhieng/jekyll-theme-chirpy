@@ -391,7 +391,7 @@ _Figure 1: Input event routed through the browser process to the renderer proces
 
 ### 合成器接收输入事件
 
-<video controls src="/img/2023-09-18-inside-browser/Aggd8YLFPckZrBjEj74H.mp4" title="Figure 2: Viewport hovering over page layers"></video>
+<video controls src="{{ site.baseurl }}/img/2023-09-18-inside-browser/Aggd8YLFPckZrBjEj74H.mp4" title="Figure 2: Viewport hovering over page layers"></video>
 
 ![](/img/2023-09-18-inside-browser/Aggd8YLFPckZrBjEj74H.mp4)
 _Figure 2: Viewport hovering over page layers(视口悬停在页面图层上)_
