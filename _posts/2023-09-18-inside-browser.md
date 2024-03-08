@@ -36,7 +36,10 @@ TODO: 不转载，还是直接翻译+整理成自己的内容吧
 
 ### 计算机的核心是 CPU 和 GPU
 
-![](/img/2023-09-18-inside-browser/cpu-fc96f4ee3715f_960.png?hl=zh-cn)
+![]({{ site.baseurl }}/img/{{ page.basename }}/cpu-fc96f4ee3715f_960.png)
+![]({{ site.baseurl }}/img/{{ site.basename }}/cpu-fc96f4ee3715f_960.png)
+![]({{ page.abc }}/cpu-fc96f4ee3715f_960.png)
+![]({{ size.abc }}/cpu-fc96f4ee3715f_960.png)
 _Figure 1: 4 CPU cores as office workers sitting at each desk handling tasks as they come in(4 个 CPU 核心作为办公室员工，坐在办公桌前处理任务)_
 
 CPU(Central Processing Unit, 中央处理器)，它相当于计算机的大脑，少而精，可以处理各种**复杂**的任务。
